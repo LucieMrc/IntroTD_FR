@@ -2,29 +2,12 @@
 
 ## Content
 * [TouchDesigner ???](#touchdesigner-)<br>
-    * [Inputs and outputs](#Inputs-and-outputs)<br>
-    * [What I do](#What-I-do)<br>
-    * [Interactive stuffs from the digital workshop](#interactive-stuffs-from-the-digital-workshop)<br>
-    * [People doing things](#people-doing-things)<br>
-    * [Interactive stuffs from the digital workshop](#interactive-stuffs-from-the-digital-workshop)<br>
-    * [People doing youtube tutorials](#people-doing-youtube-tutorials)<br>
 
-* [Understanding TouchDesigner](#understanding-touchdesigner)<br>
-    * [Interface](#Interface)<br>
-    * [Nodes](#nodes)<br>
-    * [Data links](#data-links)<br>
-    * [Quick help!](#quick-help)<br>
+* [Comprendre TouchDesigner](#comprendre-touchdesigner)<br>
 
-* [Basic actions](#basic-actions)<br>
-    * [Basic `Noise` TOP animation](#basic-noise-top-animation)<br>
-    * [Feedback loop](#feedback-loop)<br>
-    * [Exports](#exports)<br>
-    * [Feedback loop](#feedback-loop)<br>
-    * [Audio-reactive](#audio-reactive)<br>
-    * [Geometry](#geometry)<br>
-    * [Move a circle with the mouse](#move-a-circle-with-the-mouse)<br>
+* [Actions de base](#actions-de-base)<br>
 
-* [To go further](#to-go-further)<br>
+* [Pour aller + loin](#pour-aller--loin)<br>
 
 # TouchDesigner ???
 
@@ -315,42 +298,42 @@ Avec le `Phong` MAT, on peux utiliser n'importer quel TOP comme texture pour le 
 
 ## Bouger un cercle avec la souris
 
-Create a `Mouse In` CHOP.
+Créer un `Mouse In` CHOP.
 
-Create a `Circle` TOP, set the radius to something smaller like 0.05, and the resolution to something bigger like 1280*720.
+Créer un `Circle` TOP, et mettre un radius plus petit (0.05 par exemple), et une résolution plus grande comme 1280*720.
 
-Connect it to a `Transform` TOP.
+Le connecter à un `Transform` TOP.
 
-In the `Transform` TOP parameters, drag and drop "tx" from the `Mouse In` CHOP in the Translate X parameter, and do the same for "ty".
+Dans les paramètres du `Transform` TOP, drag and drop le channel "tx" du `Mouse In` CHOP dans le paramètre Translate X, et faire la même chose pour "ty" dans Translate Y.
 
 ![screen de TD](./images/screen6.png)
 
-If the circle isn't matching exactly the position of the cursor, we can remap the position so it matches the resolution of the image.
+Si le cercle ne correspond pas exactement à la position du curseur, on peux remapper les données de position pour qu'elles correspondent à la résolution de l'image.
 
-Add two `Select` CHOP after the `Mouse In`, and choose tx and ty in "Channel Names" in each `Select`, to have a CHOP for each channel.
+Ajouter deux `Select` CHOP après le `Mouse In`, et choisir tx puis ty dans "Channel Names" dans chaque `Select`, pour avoir un CHOP pour chaque channel.
 
-Add a `Math` CHOP after each `Select` and go to the "Range" tab of the parameters.
+Ajouter un `Math` CHOP après chaque `Select`, et aller dans l'onglet "Range" des paramètres.
 
-Most of the time, the position tx of the mouse will go from -1 (left side of the screen) to 1 (right side), and ty will go from around -0.6 (bottom of the screen) to 0.6 (top of the screen). You want to "From Range" to be these values in each `Math` CHOP.
+La plupart du temps, la position "tx" de la souris va de -1 (tout à gauche de l'écran) à 1 (tout à droite de l'écran), et "ty" va de -0.6 (tout en bas) à 0.6 (tout en haut).
+On met donc ces valeurs dans la partie "From Range" des deux `Math CHOP`
 
-You can then arrange the "To Range" value by moving your mouse to the edges of the display of the `Transform` TOP, and setting the range to a value where the circle center position match your cursor position around the edges and in the middle of the display.
-I used -0.6, 0.6 for tx and -0.7, 0.7 for ty.
-
+On peux alors choisir les valeurs dans la partie "To Range" en bougeant la souris jusqu'aux bords de l'affichage du `Transform` TOP, et en mettant comme range la valeur où le centre du cercle correspond à la position du curseur aux bords et au centre de l'affichage.
+Ici j'ai utilisé -0.6, 0.6 pour tx et -0.7, 0.7 pour ty.
 
 ![screen de TD](./images/screen10.png)
 
-The Range tab in a `Math` CHOP works by giving the current minimum and maximum of a value, and the new minimum and maximum that you chose, so the value is recalculated proportionally.
+L'onglet Range du `Math` CHOP marche en donnant le minimum et maximum actuel de la valeur, puis le minimum et maximum que l'on veux, pour que la valeur soit recalculée proportionnellement.
 
-# To go further
+# Pour aller + loin
 
-- [Audioreactive visual in TD (EN)](https://github.com/LucieMrc/TD_audioreact_love_EN)
+- [Visuels Audioreactifs avec TD (FR)](https://github.com/LucieMrc/TD_audioreact_love)
 
 - [Feedback loop in TD (EN)](https://github.com/LucieMrc/TD_feedback_love_EN)
 
-- [Using Kantan for video-mapping in TD (EN)](https://github.com/LucieMrc/TD_KantanMapper)
+- [Text effects in TD](https://github.com/LucieMrc/TD_textEffects)
 
-- [Photogrammetry in TD (FR for now)](https://github.com/LucieMrc/Photogrammetrie)
+- [Utiliser Kantan pour faire du video-mapping dans TD (EN)](https://github.com/LucieMrc/TD_KantanMapper)
 
-- [Using Augmenta with TD (EN)](https://github.com/LucieMrc/TD_Augmenta)
+- [Photogrammetrie dans TD (FR)](https://github.com/LucieMrc/Photogrammetrie)
 
-- [Touchdesigner ressources from the MIR lab](https://mir.works/learning-resources) (advanced)# IntroTD_FR
+- [Ressources de Touchdesigner du MIR lab](https://mir.works/learning-resources) (advanced)
