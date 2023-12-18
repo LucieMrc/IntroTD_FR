@@ -110,6 +110,9 @@ Sorties :
 
 [PPPANIK](https://www.youtube.com/channel/UCWBbakpo_cATqJy9Dzf9x4w)
 
+[Noones img](https://www.youtube.com/@noonesimg/videos
+)
+
 [Grady Sain](https://vimeo.com/user1133243)
 
 # Comprendre TouchDesigner
