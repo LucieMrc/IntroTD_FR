@@ -331,6 +331,8 @@ L'onglet Range du `Math` CHOP marche en donnant le minimum et maximum actuel de 
 
 # Pour aller + loin
 
+- [MediaPipe pour TD (FR)](https://github.com/LucieMrc/MediaPipe_TD)
+
 - [Visuels Audioreactifs avec TD (FR)](https://github.com/LucieMrc/TD_audioreact_love)
 
 - [Feedback loop in TD (EN)](https://github.com/LucieMrc/TD_feedback_love_EN)
