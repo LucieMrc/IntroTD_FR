@@ -331,16 +331,16 @@ L'onglet Range du `Math` CHOP marche en donnant le minimum et maximum actuel de 
 
 # Pour aller + loin
 
-- [MediaPipe pour TD (FR)](https://github.com/LucieMrc/MediaPipe_TD)
+- [MediaPipe pour TD (FR)](https://github.com/LucieMrc/MediaPipe_TD) : utiliser le face tracking, hand tracking et squelette tracking pour créer de l'interaction avec un webcam à la manière d'une Kinect.
 
-- [Visuels Audioreactifs avec TD (FR)](https://github.com/LucieMrc/TD_audioreact_love)
+- [Visuels Audioreactifs avec TD (FR)](https://github.com/LucieMrc/TD_audioreact_love) : créer des visuels qui réagissent à des sons en utilisant le spectre audio.
 
-- [Feedback loop in TD (EN)](https://github.com/LucieMrc/TD_feedback_love_EN)
+- [Feedback loop in TD (EN)](https://github.com/LucieMrc/TD_feedback_love_EN) : comprendre et utiliser la feedback loop.
 
-- [Text effects in TD](https://github.com/LucieMrc/TD_textEffects)
+- [Text effects in TD](https://github.com/LucieMrc/TD_textEffects) : faire des animations de texte.
 
-- [Utiliser Kantan pour faire du video-mapping dans TD (EN)](https://github.com/LucieMrc/TD_KantanMapper)
+- [Utiliser Kantan pour faire du video-mapping dans TD (EN)](https://github.com/LucieMrc/TD_KantanMapper) : faire du vidéo-mapping directement dans TD (ne marche pas si bien).
 
-- [Photogrammetrie dans TD (FR)](https://github.com/LucieMrc/Photogrammetrie)
+- [Photogrammetrie dans TD (FR)](https://github.com/LucieMrc/Photogrammetrie) : faire de la photogrammétrie (créer un nuage de points 3D en prenant pleins de photos) et la manipuler dans TD.
 
-- [Ressources de Touchdesigner du MIR lab](https://mir.works/learning-resources) (advanced)
+- [Ressources de Touchdesigner du MIR lab](https://mir.works/learning-resources) (avancé).
