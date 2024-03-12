@@ -331,13 +331,15 @@ L'onglet Range du `Math` CHOP marche en donnant le minimum et maximum actuel de 
 
 # Pour aller + loin
 
-- [MediaPipe pour TD (FR)](https://github.com/LucieMrc/MediaPipe_TD) : utiliser le face tracking, hand tracking et squelette tracking pour créer de l'interaction avec un webcam à la manière d'une Kinect.
+- [MediaPipe pour TD (FR)](https://github.com/LucieMrc/MediaPipe_TD_FR) : utiliser le face tracking, hand tracking et squelette tracking pour créer de l'interaction avec un webcam à la manière d'une Kinect.
 
 - [Visuels Audioreactifs avec TD (FR)](https://github.com/LucieMrc/TD_audioreact_love) : créer des visuels qui réagissent à des sons en utilisant le spectre audio.
 
 - [Feedback loop in TD (EN)](https://github.com/LucieMrc/TD_feedback_love_EN) : comprendre et utiliser la feedback loop.
 
-- [Text effects in TD](https://github.com/LucieMrc/TD_textEffects) : faire des animations de texte.
+- [Text effects in TD (EN)](https://github.com/LucieMrc/TD_textEffects) : faire des animations de texte.
+
+- [Contenu pour le mapping (FR)](https://github.com/LucieMrc/TD_Contenu-pour-le-mapping) :  créer des visuels à utiliser comme média de video-mapping.
 
 - [Utiliser Kantan pour faire du video-mapping dans TD (EN)](https://github.com/LucieMrc/TD_KantanMapper) : faire du vidéo-mapping directement dans TD (ne marche pas si bien).
 
