@@ -331,13 +331,17 @@ L'onglet Range du `Math` CHOP marche en donnant le minimum et maximum actuel de 
 
 # Pour aller + loin
 
+- Outil texture : [Dither anything](https://github.com/LucieMrc/Dither_touchdesigner)
+
 - [MediaPipe pour TD (FR)](https://github.com/LucieMrc/MediaPipe_TD_FR) : utiliser le face tracking, hand tracking et squelette tracking pour créer de l'interaction avec un webcam à la manière d'une Kinect.
 
 - [Visuels Audioreactifs avec TD (FR)](https://github.com/LucieMrc/TD_audioreact_love) : créer des visuels qui réagissent à des sons en utilisant le spectre audio.
 
 - [Feedback loop in TD (EN)](https://github.com/LucieMrc/TD_feedback_love_EN) : comprendre et utiliser la feedback loop.
 
--[TD <-> Arduino](https://github.com/LucieMrc/TD_Arduino_FR): communiquer via Serial entre Touchdesigner et Arduino.
+- [Utiliser le Replicator COMP](https://github.com/LucieMrc/TD_Replicator_FR) : utiliser le Replicator COMP pour cloner des composants à partir d'un tableau de données.
+
+- [TD <-> Arduino](https://github.com/LucieMrc/TD_Arduino_FR): communiquer via Serial entre Touchdesigner et Arduino.
 
 - [Text effects in TD (EN)](https://github.com/LucieMrc/TD_textEffects) : faire des animations de texte.
 
